@@ -9,10 +9,6 @@ Glassmorphism is a modern UI design trend that gives the illusion of frosted gla
 - Interactive and aesthetically pleasing design.
 - Easy-to-integrate HTML/CSS code that can be used in any web project.
 
-## Demo
-
-Check out the live demo [here](#) (Replace this link with a live demo URL if available).
-
 ## Installation
 
 To use the Glassmorphism effect in your own projects, follow these steps:
@@ -33,8 +29,17 @@ You can add the Glassmorphism effect to any section of your webpage by applying 
 
 ### Example Usage:
 
-```html
+```HTML
 <div class="glass-container">
   <h1>Glassmorphism Effect</h1>
   <p>Welcome to the world of frosted glass design!</p>
 </div>
+
+```CSS
+.glass-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  text-align: center;
+}
