@@ -29,13 +29,14 @@ You can add the Glassmorphism effect to any section of your webpage by applying 
 
 ### Example Usage:
 
-```html
+```
+HTML
 <div class="glass-container">
   <h1>Glassmorphism Effect</h1>
   <p>Welcome to the world of frosted glass design!</p>
 </div>
 
-css
+CSS
 .glass-container {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
